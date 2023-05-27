@@ -37,3 +37,7 @@ app.get('/', (req, res) => {
 app.get('/galery', (req, res) => {
     res.render('galery');
 });
+
+app.get('/about-freya', (req, res) => {
+    res.render('about-freya');
+})
