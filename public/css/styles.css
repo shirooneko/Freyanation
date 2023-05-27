@@ -14376,10 +14376,37 @@ html {
   img {
     object-position: center;
   }
+
+  iframe {
+    width: 410px;
+    height: 228px;
+  }
+
+  .gif img {
+    width: 410px;
+    height: 228px;
+  }
 }
 
 @media (max-width: 992px) {
   iframe {
+    width: 340px;
+    height: 191px;
+  }
+
+  .gif img {
+    width: 340px;
+    height: 191px;
+  }
+}
+
+@media (max-width: 1200px) {
+  iframe {
+    width: 340px;
+    height: 191px;
+  }
+
+  .gif img {
     width: 340px;
     height: 191px;
   }
@@ -14391,4 +14418,15 @@ html {
     width: 50%;
     max-width: 100%;
   }
+
+  iframe {
+    width: 271px;
+    height: 152px;
+  }
+
+  .gif img {
+    width: 271px;
+    height: 152px;
+  }
 }
+
