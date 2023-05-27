@@ -5009,10 +5009,10 @@ fieldset:disabled .btn {
 }
 
 .card-custom {
-  border-radius: 30px;
-  background: linear-gradient(145deg, #fc85ae, #fc85ae);
-  box-shadow: 14px 14px 0px #674955,
-    -14px -14px 0px #ffffff;
+  border-radius: 16px;
+  background: #071e3d;
+  box-shadow: 9px 9px 0px #061a34,
+    -9px -9px 0px #082346;
 }
 
 .card-custom-2 {
@@ -14110,11 +14110,25 @@ html {
   margin-right: 14px;
   margin-left: 14px;
   scroll-snap-align: start;
+
+}
+
+.carousel.kabesha img {
+  max-width: 100%;
+  /* Mengatur lebar gambar */
+  height: auto;
+  /* Mengatur tinggi gambar */
+  object-fit: cover;
+  user-select: none;
+  margin-right: 14px;
+  margin-left: 14px;
+  scroll-snap-align: start;
 }
 
 .carousel img:first-child {
   margin-left: 0px;
 }
+
 
 @media screen and (max-width: 900px) {
   .carousel img {
@@ -14131,6 +14145,105 @@ html {
 .twitter-container {
   display: flex;
   justify-content: center;
+}
+
+.timeline-section {
+  min-height: 100vh;
+  padding: 100px 15px;
+}
+
+.timeline-items {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.timeline-items::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #1f4287;
+  left: calc(50% - 1px);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-dot {
+  height: 16px;
+  width: 16px;
+  background-color: #eaa023;
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline-date {
+  font-size: 18px;
+  color: #eaa023;
+  margin: 6px 0 15px;
+}
+
+.timeline-content {
+  background-color: #1f4287;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  color: #c8c8c8;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px) {
+  .timeline-items::before {
+    left: 7px;
+  }
+
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding-left: 37px;
+  }
+
+  .timeline-dot {
+    left: 0;
+  }
 }
 
 @media (min-width: 576px) {
