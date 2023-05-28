@@ -27,7 +27,7 @@ Clone repositori ini ke direktori lokal Anda.
 
 bash
 Copy code
-git clone https://github.com/username/repository.git
+git clone https://github.com/shirooneko/Freyanation
 Buka direktori proyek.
 
 bash
@@ -42,15 +42,16 @@ Jalankan server pengembangan.
 sql
 Copy code
 npm start
-Buka browser dan akses http://localhost:3000 untuk melihat website fanbase Freya JKT48 secara lokal.
+Buka browser dan akses http://localhost:4000 untuk melihat website fanbase Freya JKT48 secara lokal.
 
 Tim Pengembang
-Nama Tim 1
-Nama Tim 2
-Nama Tim 3
+Shiroo Neko
+
 Lisensi
 Proyek ini dilisensikan di bawah lisensi MIT, yang berarti Anda dapat menggunakan dan memodifikasi kode ini sesuai kebutuhan Anda. Mohon untuk tetap menghargai hak cipta dan mencantumkan atribusi kepada kami sebagai pengembang asli.
 
 Kami berharap website fanbase Freya JKT48 ini dapat memberikan pengalaman yang menyenangkan dan bermanfaat bagi penggemar. Terima kasih atas dukungan Anda!
 
 Tim Pengembang Freya JKT48 Fanbase
+
+preview https://wild-sweatpants-seal.cyclic.app/
