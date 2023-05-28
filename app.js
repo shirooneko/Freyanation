@@ -41,3 +41,9 @@ app.get('/galery', (req, res) => {
 app.get('/about-freya', (req, res) => {
     res.render('about-freya');
 })
+app.get('/freyanation', (req, res) => {
+    res.render('freyanation');
+})
+app.get('/project', (req, res) => {
+    res.render('project');
+})
