@@ -20,6 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/lightbox.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
@@ -47,29 +48,56 @@
             </div>
         </nav>
         <section class="py-5">
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-12 mb-3 text-center">
-                        <h1 class="fw-bold">Gallery Freya</h1>
-                    </div>
-                    <div class="wrapper card bg-palet p-3 py-4">
-                        <i id="left" class="fas fa-solid fa-chevron-left fa-2xl"></i>
-                        <div class="carousel">
-                            <img src="../assets/img/img-1.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-2.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-3.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-4.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-5.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-6.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-7.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-8.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-9.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-10.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-11.jpg" alt="img" draggable="false">
-                            <img src="../assets/img/img-12.jpg" alt="img" draggable="false">
-                        </div>
-                        <i id="right" class="fas fa-solid fa-chevron-right fa-2xl"></i>
-                    </div>
+            <div class="text-center">
+                <h2 class="fw-bold fs-1">Gallery Freya</h2>
+            </div>
+            <div class="containerr">
+                <div class="gallery">
+                    <a href="../assets/img/carousel/img-1.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/img-1.jpg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/img-2.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/img-2.jpg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/img-3.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/img-3.jpg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/img-4.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/img-4.jpg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/img-5.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/img-5.jpg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/img-6.jpg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/img-6.jpg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/111.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/111.jpeg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/22.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/22.jpeg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/44.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/44.jpeg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/55.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/55.jpeg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/kawai2.webp" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/kawai2.webp" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/kawai3.webp" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/kawai3.webp" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/hihi.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/hihi.jpeg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/hihi2.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/hihi2.jpeg" alt="img">
+                    </a>
+                    <a href="../assets/img/carousel/hihi3.jpeg" data-lightbox="models" data-title="Caption1">
+                        <img src="../assets/img/carousel/hihi3.jpeg" alt="img">
+                    </a>
                 </div>
             </div>
         </section>
@@ -141,6 +169,7 @@
     <script src="../assets/js/scripts.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/lightbox-plus-jquery.js"></script>
     <script>
         AOS.init();
     </script>
