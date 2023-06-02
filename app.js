@@ -47,3 +47,6 @@ app.get('/freyanation', (req, res) => {
 app.get('/project', (req, res) => {
     res.render('project');
 })
+app.get('/join', (req, res) => {
+    res.render('join');
+})
